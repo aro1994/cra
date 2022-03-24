@@ -11,7 +11,7 @@ function App() {
           Edit <code>src/App.tsx</code> save to.
         </p>
         <a
-          className="App-link"
+
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
