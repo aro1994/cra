@@ -1,9 +1,11 @@
 import { FC } from "react"
+import { Profile } from "../../pages/profile/profile"
 import styles from "./main.module.scss"
-import shoes from "../../img/shoes.jpg"
+
+
 
 export const Main:FC = () => {
 	return <div className={styles.main}>
-		<img src={shoes} alt="shoes" className={styles.img}/>
+		<Profile/>
 	</div>
 }
